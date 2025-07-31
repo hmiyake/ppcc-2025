@@ -3,6 +3,16 @@
 import sys
 
 def readStat(filename):
+    """
+    Reads file containing each item and calculate statistics.
+    Displays the statistics with bar chart as well as the largest and smallest items.
+
+    Args:
+        filename (str): file contains each item
+
+    Returns:
+        None
+    """
     stat = {}
     ratio = []
     maxItem = ['None', 0]
